@@ -1,0 +1,52 @@
+TASK com.example.marek.segwayparameter id=683
+  ACTIVITY com.example.marek.segwayparameter/.MainActivity 428f4708 pid=5343
+    Local FragmentActivity 428f7f40 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@428f8220
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@428f8220
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{428f9c70 V.E..... ... 0,0-1920,1080}
+        android.widget.LinearLayout{428fa3a0 V.E..... ... 0,0-1920,1080}
+          android.view.ViewStub{428fae40 G.E..... ... 0,0-0,0 #1020314}
+          android.widget.FrameLayout{428fb1a0 V.E..... ... 0,0-1920,1080}
+            android.support.v7.widget.FitWindowsLinearLayout{428fcd60 V.E..... ... 0,0-1920,1080 #7f0c0055 app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{428fd080 G.E..... ... 0,0-0,0 #7f0c0056 app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{428fd5d0 V.ED.... ... 0,0-1920,1080 #1020002 android:id/content}
+                android.support.design.widget.CoordinatorLayout{428fdf28 V.E..... ... 0,0-1920,1080}
+                  android.support.design.widget.AppBarLayout{428fe4f8 V.E..... ... 0,0-1920,144}
+                    android.support.v7.widget.Toolbar{428fea08 V.E..... ... 0,0-1920,144 #7f0c006c app:id/toolbar}
+                      android.widget.TextView{42913240 V.ED.... ... 48,43-400,100}
+                      android.support.v7.widget.ActionMenuView{42969308 V.E..... ... 1112,0-1920,144}
+                        android.support.v7.view.menu.ActionMenuItemView{4296bd40 VFED..CL ... 0,0-315,144 #7f0c0024 app:id/start}
+                        android.support.v7.view.menu.ActionMenuItemView{4296ca40 VFED..CL ... 315,0-808,144 #7f0c0095 app:id/status_connected}
+                  android.widget.RelativeLayout{428ff918 V.E..... ... 0,144-1920,1080}
+                    android.widget.LinearLayout{42900478 V.E..... ... 48,48-1356,888 #7f0c006d app:id/linearLayout}
+                      com.jjoe64.graphview.GraphView{42901080 V.ED.... ... 0,0-1308,840 #7f0c006e app:id/graph}
+                    android.widget.LinearLayout{42902970 V.E..... ... 1356,48-1872,888}
+                      android.widget.LinearLayout{42902d48 V.E..... ... 0,0-516,105}
+                        android.support.v7.widget.AppCompatRadioButton{42903070 VFED..C. ... 0,0-96,96 #7f0c006f app:id/radioButton}
+                        android.support.v7.widget.AppCompatTextView{42905448 V.ED.... ... 111,1-293,91 #7f0c0070 app:id/M1IZ}
+                        android.support.v7.widget.AppCompatTextView{42905b90 V.ED.... ... 293,1-377,91 #7f0c0071 app:id/resM1IZ}
+                      android.widget.LinearLayout{42906308 V.E..... ... 0,120-516,225}
+                        android.support.v7.widget.AppCompatRadioButton{429065e0 VFED..C. ... 0,0-96,96 #7f0c0072 app:id/radioButton2}
+                        android.support.v7.widget.AppCompatTextView{42907be8 V.ED.... ... 111,1-297,91 #7f0c0073 app:id/M1I0}
+                        android.support.v7.widget.AppCompatTextView{42908330 V.ED.... ... 297,1-381,91 #7f0c0074 app:id/resM1I0}
+                      android.widget.LinearLayout{42908a70 V.E..... ... 0,240-516,345}
+                        android.support.v7.widget.AppCompatRadioButton{42908d48 VFED..C. ... 0,0-96,96 #7f0c0075 app:id/radioButton3}
+                        android.support.v7.widget.AppCompatTextView{4290a298 V.ED.... ... 111,1-293,91 #7f0c0076 app:id/M2IZ}
+                        android.support.v7.widget.AppCompatTextView{4290a9e0 V.ED.... ... 293,1-377,91 #7f0c0077 app:id/resM2IZ}
+                      android.widget.LinearLayout{4290b120 V.E..... ... 0,360-516,465}
+                        android.support.v7.widget.AppCompatRadioButton{4290b3f8 VFED..C. ... 0,0-96,96 #7f0c0078 app:id/radioButton4}
+                        android.support.v7.widget.AppCompatTextView{4290c948 V.ED.... ... 111,1-297,91 #7f0c0079 app:id/M2I0}
+                        android.support.v7.widget.AppCompatTextView{4290d090 V.ED.... ... 297,1-381,91 #7f0c007a app:id/resM2I0}
+                      android.widget.LinearLayout{4290d7d0 V.E..... ... 0,480-516,585}
+                        android.support.v7.widget.AppCompatRadioButton{4290daa8 VFED..C. ... 0,0-96,96 #7f0c007b app:id/radioButton6}
+                        android.support.v7.widget.AppCompatTextView{4290eff8 V.ED.... ... 111,1-202,91 #7f0c007c app:id/textView}
+                        android.support.v7.widget.AppCompatTextView{4290f738 V.ED.... ... 202,1-286,91 #7f0c007d app:id/Angle_value}
+                      android.widget.LinearLayout{4290fe78 V.E..... ... 0,600-516,705}
+                        android.support.v7.widget.AppCompatRadioButton{42910150 VFED..C. ... 0,0-96,96 #7f0c007e app:id/radioButton5}
+                        android.support.v7.widget.AppCompatTextView{429116a0 V.ED.... ... 111,1-299,91 #7f0c007f app:id/Uaku_sign}
+                        android.support.v7.widget.AppCompatTextView{42911ef0 V.ED.... ... 299,1-383,91 #7f0c0080 app:id/Uaku_value}

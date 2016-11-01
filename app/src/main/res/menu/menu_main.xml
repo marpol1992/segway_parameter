@@ -1,0 +1,35 @@
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.PaintActivity">
+
+
+
+
+    <item   android:id="@+id/status_connected"
+        android:title="DISCONNECTED"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_bluetooth_disabled_black_24dp"
+        app:showAsAction= "ifRoom|withText">
+        <menu>
+            <item   android:id="@+id/connect"
+                android:title="Połącz z Bluetooth"
+                android:orderInCategory="100"
+                />
+
+            <item   android:id="@+id/disconnect"
+                android:title="Rozłącz z Bluetooth"
+                android:orderInCategory="100"
+                />
+        </menu>
+    </item>
+
+    <item android:id="@+id/start"
+        android:title="@string/start"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_play_arrow_black_48dp"
+        app:showAsAction= "ifRoom|withText">
+
+    </item>
+
+</menu>
